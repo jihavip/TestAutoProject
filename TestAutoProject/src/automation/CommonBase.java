@@ -74,7 +74,6 @@ public class CommonBase {
 		String browser = System.getProperty("browser");
 		String plaForm = System.getProperty("platForm");
 		WebDriver dr = null;
-		
 		if(browser == null){
 			browser = broName;
 		}
