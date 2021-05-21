@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14729" started-at="2021-05-21T13:09:16Z" finished-at="2021-05-21T13:09:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14729" started-at="2021-05-21T13:09:16Z" finished-at="2021-05-21T13:09:31Z">
+      <class name="automation.Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.Login@548b7f67]" name="setUp" is-config="true" duration-ms="6776" started-at="2021-05-21T20:09:16Z" finished-at="2021-05-21T20:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginThanhCongEditor()[pri:0, instance:automation.Login@548b7f67]" name="LoginThanhCongEditor" duration-ms="7524" started-at="2021-05-21T20:09:23Z" finished-at="2021-05-21T20:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginThanhCongEditor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.Login@548b7f67]" name="tearDown" is-config="true" duration-ms="406" started-at="2021-05-21T20:09:31Z" finished-at="2021-05-21T20:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
