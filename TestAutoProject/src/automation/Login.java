@@ -32,7 +32,7 @@ public class Login extends BaseTest{
 		String TxtBoxContent = driver.findElement(By.id("login_error")).getText();
 		System.out.println(TxtBoxContent);
 		// so sánh với đoạn đoạn text mẫu
-		verifyCompare(TxtBoxContent,"ERROR: The username field is empty.");
+		verifyCompare(TxtBoxContent,"LỖI: Trường tên người dùng trống.");
 	}
 	@Test
 	public void LoginKhongNhapPass() {
@@ -44,7 +44,7 @@ public class Login extends BaseTest{
 		String TxtBoxContent = driver.findElement(By.id("login_error")).getText();
 		System.out.println(TxtBoxContent);
 		// so sánh với đoạn đoạn text mẫu
-		verifyCompare(TxtBoxContent,"ERROR: The password field is empty.");
+		verifyCompare(TxtBoxContent,"Lỗi: Xin điền mật khẩu.");
 	}
 	@Test
 	public void LoginThanhCong() throws InterruptedException  {
@@ -56,12 +56,13 @@ public class Login extends BaseTest{
 		String UrlLogined =driver.getCurrentUrl();
 		verifyCompare(UrlLogined, "http://localhost/wordpress/wp-admin/");
 	}
+	//
 	@Test
 	public void LogoutThanhCong() throws InterruptedException{
 		login("hanttautotest","123456aA@_");
-		mouseOver("//a[contains(text(),'Howdy, ')]");
+		mouseOver("//a[contains(text(),'Chào, ')]");
 		pause(5000);
-		driver.findElement(By.xpath("//*[@class='ab-item' and contains(text(),'Log Out')]")).click();
+		driver.findElement(By.xpath("//*[@class='ab-item' and contains(text(),'Đăng xuất')]")).click();
 		pause(5000);
 		String UrlLogOutTrue =driver.getCurrentUrl();
 		verifyCompare(UrlLogOutTrue, "http://localhost/wordpress/wp-login.php?loggedout=true");
