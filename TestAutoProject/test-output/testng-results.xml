@@ -1,73 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69756" started-at="2021-05-26T09:05:42Z" finished-at="2021-05-26T09:06:51Z">
+  <suite name="Default suite" duration-ms="15138" started-at="2021-06-03T08:09:23Z" finished-at="2021-06-03T08:09:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69756" started-at="2021-05-26T09:05:42Z" finished-at="2021-05-26T09:06:51Z">
-      <class name="automation.Login">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.Login@402f32ff]" name="setUp" is-config="true" duration-ms="8400" started-at="2021-05-26T16:05:42Z" finished-at="2021-05-26T16:05:50Z">
+    <test name="Default test" duration-ms="15138" started-at="2021-06-03T08:09:23Z" finished-at="2021-06-03T08:09:38Z">
+      <class name="automation.TS_WP_PostAll">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.TS_WP_PostAll@51efea79]" name="setUp" is-config="true" duration-ms="7352" started-at="2021-06-03T15:09:23Z" finished-at="2021-06-03T15:09:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginKhongNhapPass()[pri:0, instance:automation.Login@402f32ff]" name="LoginKhongNhapPass" duration-ms="1470" started-at="2021-05-26T16:05:50Z" finished-at="2021-05-26T16:05:51Z">
+        <test-method status="PASS" signature="Case2_PostAll_TimKiemBaiViet()[pri:0, instance:automation.TS_WP_PostAll@51efea79]" name="Case2_PostAll_TimKiemBaiViet" duration-ms="7196" started-at="2021-06-03T15:09:30Z" finished-at="2021-06-03T15:09:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginKhongNhapPass -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.Login@402f32ff]" name="tearDown" is-config="true" duration-ms="1221" started-at="2021-05-26T16:05:51Z" finished-at="2021-05-26T16:05:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.Login@402f32ff]" name="setUp" is-config="true" duration-ms="6298" started-at="2021-05-26T16:05:53Z" finished-at="2021-05-26T16:05:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginKhongNhapUser()[pri:0, instance:automation.Login@402f32ff]" name="LoginKhongNhapUser" duration-ms="1038" started-at="2021-05-26T16:05:59Z" finished-at="2021-05-26T16:06:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginKhongNhapUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.Login@402f32ff]" name="tearDown" is-config="true" duration-ms="363" started-at="2021-05-26T16:06:00Z" finished-at="2021-05-26T16:06:00Z">
+        </test-method> <!-- Case2_PostAll_TimKiemBaiViet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.TS_WP_PostAll@51efea79]" name="tearDown" is-config="true" duration-ms="567" started-at="2021-06-03T15:09:37Z" finished-at="2021-06-03T15:09:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.Login@402f32ff]" name="setUp" is-config="true" duration-ms="7134" started-at="2021-05-26T16:06:00Z" finished-at="2021-05-26T16:06:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginThanhCong()[pri:0, instance:automation.Login@402f32ff]" name="LoginThanhCong" duration-ms="8006" started-at="2021-05-26T16:06:08Z" finished-at="2021-05-26T16:06:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginThanhCong -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.Login@402f32ff]" name="tearDown" is-config="true" duration-ms="340" started-at="2021-05-26T16:06:16Z" finished-at="2021-05-26T16:06:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.Login@402f32ff]" name="setUp" is-config="true" duration-ms="6336" started-at="2021-05-26T16:06:16Z" finished-at="2021-05-26T16:06:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginThanhCongEditor()[pri:0, instance:automation.Login@402f32ff]" name="LoginThanhCongEditor" duration-ms="7439" started-at="2021-05-26T16:06:22Z" finished-at="2021-05-26T16:06:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginThanhCongEditor -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.Login@402f32ff]" name="tearDown" is-config="true" duration-ms="289" started-at="2021-05-26T16:06:30Z" finished-at="2021-05-26T16:06:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:automation.Login@402f32ff]" name="setUp" is-config="true" duration-ms="5997" started-at="2021-05-26T16:06:30Z" finished-at="2021-05-26T16:06:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LogoutThanhCong()[pri:0, instance:automation.Login@402f32ff]" name="LogoutThanhCong" duration-ms="15018" started-at="2021-05-26T16:06:36Z" finished-at="2021-05-26T16:06:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoutThanhCong -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.Login@402f32ff]" name="tearDown" is-config="true" duration-ms="366" started-at="2021-05-26T16:06:51Z" finished-at="2021-05-26T16:06:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- automation.Login -->
+      </class> <!-- automation.TS_WP_PostAll -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
